@@ -334,6 +334,7 @@ footer a{color:var(--ink2)}
       <li>贝多芬全集 / 《玫瑰骑士》：<a href="https://shanghaiconcerts.com/concerts/buchbinder-staatskapelle-berlin-beethoven-piano-concertos" target="_blank" rel="noopener">上海大歌剧院场次页（贝多芬）</a>、<a href="https://shanghaiconcerts.com/concerts/thielemann-staatsoper-der-rosenkavalier" target="_blank" rel="noopener">《玫瑰骑士》场次页</a></li>
       <li>昆剧《家》 / 《天边的红云》：中国上海国际艺术节官网 artsbird.com 剧目页</li>
       <li>其余场次：网易艺术节一周看点、搜狐上海本周文旅指南、SmartShanghai、LocalHub 场馆页（2026-11-03 核对）</li>
+      <li>新增 5 项（2026-11-03 夜核对）：上博官网「金冠之下」展页、浦东美术馆官网展览页、西岸美术馆官网「计算万千世界」页、上观新闻李窑村亲子路线、浦江郊野公园浸想森林报道；仓野 SPACE 因未核实到周末营业时间，本次未加。</li>
     </ul>
     <p>说明：票价为公开渠道的起价或价格区间，热门场次余票变化快，下单前请在购票页确认场次时间与余票。</p>
   </footer>
@@ -439,7 +440,40 @@ var EVENTS = [
     desc:"两个轻量选项打包：11/6–8 上海影城有「英伦风情」英国经典电影周，适合雨天临时起意；青浦曲水园的「曲水菊韵 · 雅集金秋」菊花展持续到 11/22，江南园林配秋菊，建议赶在周六无雨时去。",
     time:"电影周 11/6–8 · 菊花展至 11/22", venue:"上海影城 / 青浦 · 曲水园", area:"长宁 · 新华路 / 青浦 · 公园路",
     price:"电影票价见影城 · 菊花展见景区页", min:0, priceNote:"",
-    link:"https://www.sohu.com/a/1095958714_122094388" }
+    link:"https://www.sohu.com/a/1095958714_122094388" },
+  { id:"jinguan", day:"both", cat:"expo", img:"", alt:"",
+    title:"金冠之下：新罗文物精华展", tags:[["免费","free"],["展览",""]],
+    desc:"上博与韩国国立庆州博物馆合办，中国境内首个聚焦新罗的文物专题展：260件文物，围绕黄金文化、对外交流、佛教艺术三大主题，金冠、金腰带等是看点。周日下雨时排室内正合适。",
+    time:"11/7–8 · 10:00–18:00（17:00止入，周二闭馆）", venue:"上海博物馆东馆 · 二楼特展厅", area:"浦东 · 世纪大道1952号",
+    price:"免费", min:0, priceNote:"散客免预约，持有效证件入馆",
+    deal:"省钱提示：免费展，和同馆《环宇璀璨》珠宝展可同一天连看。",
+    link:"https://www.shanghaimuseum.net/mu/frontend/pg/article/id/E00004251" },
+  { id:"suonian", day:"both", cat:"expo", img:"", alt:"",
+    title:"所念，所梦 · 梵克雅宝舞蹈映像摄影展", tags:[["即将闭展","hot"],["展览",""]],
+    desc:"法国艺术家 Estelle Hanania 约40幅胶片摄影，记录三届舞蹈映像的排练、舞台与幕后；11月14日闭展，11月7–8日是最后一个完整周末。",
+    time:"11/7–8 · 10:00–21:00（20:00止入）", venue:"浦东美术馆 · 4F", area:"浦东 · 滨江大道2777号",
+    price:"¥100–150 · 一票通馆", min:100, priceNote:"周末为指定日，购票页显示为准",
+    deal:"省钱提示：一票可看馆内全部展览，同馆 19M 展 11月15日闭展，可顺路连看。",
+    link:"https://www.museumofartpd.org.cn/exhibition" },
+  { id:"computer", day:"both", cat:"expo", img:"", alt:"",
+    title:"计算万千世界 · 西岸美术馆 × 蓬皮杜中心", tags:[["展览",""]],
+    desc:"蓬皮杜中心馆藏近180件作品与档案，回望75年数字创作史：生成艺术、像素美学、网络文化、NFT 到当下 AI，七个章节讲计算如何改变创作。",
+    time:"11/7–8 · 11:00–18:00（周一闭馆）", venue:"西岸美术馆 · 展厅3", area:"徐汇 · 龙腾大道2600号",
+    price:"¥100 全票", min:100, priceNote:"成长值票等优惠见美术馆小程序",
+    link:"https://wbmshanghai.com/zh-hans/article/1830-article-computer-worlds" },
+  { id:"liyao", day:"sat", cat:"expo", img:"", alt:"",
+    title:"奉贤李窑村 · 稻田亲子一日线", tags:[["亲子","new"],["户外",""]],
+    desc:"千亩稻田、皮划艇、稻田小火车、土窑面包披萨手作，宠物可同行。稻田观赏期到11月上旬，11月7日已是尾声；皮划艇、小火车遇风雨会停运，窑烤手作有成团要求，出发前务必电话核实。",
+    time:"周六 11/7 · 皮划艇周末时段 10:00–17:00，窑烤 9:00–18:00", venue:"李窑村 · 稻边边7咖啡、慕然乡野露营基地、南墙先生窑烤一带", area:"奉贤 · 青村镇李窑村",
+    price:"各点位单独收费", min:0, priceNote:"村子免费开放，体验项目另收费",
+    deal:"省钱提示：优先放周六，周日有雨，户外项目更易受影响；手作先确认成团人数再去。",
+    link:"https://www.jfdaily.com/sgh/detail?id=4074534" },
+  { id:"jinxiang", day:"both", cat:"expo", img:"", alt:"",
+    title:"浸想森林 · 浦江郊野公园溪边咖啡", tags:[["户外",""],["咖啡",""]],
+    desc:"浦江郊野公园活力森林区里的溪边森系空间：落羽杉林、临水木平台、懒人沙发，咖啡约20–30元，公园免费入场，咖啡等业态单独付费。周日有雨，优先周六去，雨天户外座位会受影响。",
+    time:"11/7–8 · 公园 08:30–18:30（17:00止入）", venue:"浸想森林 · 浦江郊野公园活力森林区", area:"闵行 · 浦锦南路2086弄1-16号",
+    price:"公园免费 · 咖啡约¥20–30", min:0, priceNote:"以店内实际价格为准",
+    link:"https://finance.sina.cn/2026-11-01/detail-inixfkxx1139143.d.html?vt=4" },
 ];
 
 var state = { day:"all", cat:"all", plan:{} };
